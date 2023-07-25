@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../minimal-landing-page/font/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('../minimal-landing-page/font/HelveticaNeueCyr-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    color: #000;
+    font-family: HelveticaNeueCyr;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.5%;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1920px;
+    background: #F3F3F3;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 55px;
+}
+
+.right-link a img {
+    margin-right: 12px;
+    margin-left: 100px;
+}
+
+.right-link a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.right-link a:last-child {
+    margin-left: 12px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.right-link {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    position: relative;
+}
+
+.logo span svg:first-child {
+    position: absolute;
+    top: -3px;
+    left: -1px;
+}
+
+.logo span svg:last-child {
+    position: absolute;
+    top: -10px;
+    right: 6px;
+}
+
+.container span hr {
+    margin-top: 18px;
+    margin-bottom: 87px;
+    border-color: black;
+}
+
+.hero-area {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 580px;
+    position: relative;
+}
+
+.hero-text h1 {
+    font-size: 135px;
+    font-weight: 400;
+    line-height: 77%;
+}
+
+.links {
+    margin: 25px 0;
+}
+
+.hero-img {
+    width: 550px;
+}
+
+.hero-img img {
+    padding: 100px 90px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-area hr {
+    border-color: black;
+}
+
+.hero-text .one {
+    position: absolute;
+    top: -70px;
+    left: -20px;
+    z-index: -1;
+}
+
+.hero-text .two {
+    position: absolute;
+    bottom: 50px;
+    right: -20px;
+    z-index: -1;
+}
